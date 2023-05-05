@@ -19,6 +19,8 @@
 		<Item Name="Signal Acquisition.lvlib" Type="Library" URL="../Signal Acquisition/Signal Acquisition.lvlib"/>
 		<Item Name="User Interface.lvlib" Type="Library" URL="../User Interface/User Interface.lvlib"/>
 		<Item Name="BonTechDetector.lvlib" Type="Library" URL="../BonTechDetector/BonTechDetector.lvlib"/>
+		<Item Name="Controller -- Signal Acq Interface.lvlib" Type="Library" URL="../Interfaces/Controller -- Signal Acq Interface.lvlib"/>
+		<Item Name="Controller States.ctl" Type="VI" URL="../Controller/Controller/TypeDef/Controller States.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Error Reporter Base.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_MGI/Error Reporter/MGI Error Reporter Base/MGI Error Reporter Base.lvclass"/>
@@ -159,6 +161,7 @@
 				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Data Model/Standard Data Model/Standard Data Model.lvclass"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 			</Item>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

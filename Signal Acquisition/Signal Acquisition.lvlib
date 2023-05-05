@@ -5,10 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Controls" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="States.ctl" Type="VI" URL="../Signal Acquisition/Controls/States.ctl"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="TEST Msg.lvclass" Type="LVClass" URL="../Signal Acquisition Messages/TEST Msg/TEST Msg.lvclass"/>
+		<Item Name="Acknowledge Message Msg.lvclass" Type="LVClass" URL="../Signal Acquisition Messages/Acknowledge Message Msg/Acknowledge Message Msg.lvclass"/>
+		<Item Name="Incoming bitMessage Msg.lvclass" Type="LVClass" URL="../Signal Acquisition Messages/Incoming bitMessage Msg/Incoming bitMessage Msg.lvclass"/>
+		<Item Name="PLC Initialize Message Msg.lvclass" Type="LVClass" URL="../Signal Acquisition Messages/PLC Initialize Message Msg/PLC Initialize Message Msg.lvclass"/>
+		<Item Name="Wakeup Message Msg.lvclass" Type="LVClass" URL="../Signal Acquisition Messages/Wakeup Message Msg/Wakeup Message Msg.lvclass"/>
 	</Item>
 	<Item Name="Signal Acquisition.lvclass" Type="LVClass" URL="../Signal Acquisition/Signal Acquisition.lvclass"/>
 </Library>
