@@ -21,6 +21,7 @@
 		<Item Name="BonTechDetector.lvlib" Type="Library" URL="../BonTechDetector/BonTechDetector.lvlib"/>
 		<Item Name="Controller -- Signal Acq Interface.lvlib" Type="Library" URL="../Interfaces/Controller -- Signal Acq Interface.lvlib"/>
 		<Item Name="Controller States.ctl" Type="VI" URL="../Controller/Controller/TypeDef/Controller States.ctl"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Error Reporter Base.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/_MGI/Error Reporter/MGI Error Reporter Base/MGI Error Reporter Base.lvclass"/>
@@ -166,13 +167,6 @@
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Connect.vi" Type="VI" URL="../Image Acquisition/Child Classes/BonTechFlatPanel/VIs/Connect.vi"/>
-			<Item Name="BigEndianToLittleEndian_IP.vi" Type="VI" URL="../Image Acquisition/Child Classes/BonTechFlatPanel/Controls/BigEndianToLittleEndian_IP.vi"/>
-			<Item Name="lvString to lpString.vi" Type="VI" URL="../Image Acquisition/Child Classes/BonTechFlatPanel/subvi/lvString to lpString.vi"/>
-			<Item Name="Get Serial Number.vi" Type="VI" URL="../Image Acquisition/Child Classes/BonTechFlatPanel/VIs/Get Serial Number.vi"/>
-			<Item Name="lpString to lvString.vi" Type="VI" URL="../Image Acquisition/Child Classes/BonTechFlatPanel/subvi/lpString to lvString.vi"/>
-			<Item Name="Options.ctl" Type="VI" URL="../Modules/Modbus driver/Modbus Test/Controls/Options.ctl"/>
-			<Item Name="TestData.ctl" Type="VI" URL="../Modules/Modbus driver/Modbus Test/Controls/TestData.ctl"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -184,7 +178,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="BonTechWrapperLibrary.dll" Type="Document" URL="/C/Users/Sandeep/Downloads/The Oracle-lv2021/Image Acquisition/Child Classes/BonTechFlatPanel/BonTechWrapperLibrary.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
