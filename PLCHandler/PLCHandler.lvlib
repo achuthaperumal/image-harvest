@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Acknowledgement Msg.lvclass" Type="LVClass" URL="../PLCHandler Messages/Acknowledgement Msg/Acknowledgement Msg.lvclass"/>
+		<Item Name="Sleep Msg.lvclass" Type="LVClass" URL="../PLCHandler Messages/Sleep Msg/Sleep Msg.lvclass"/>
 		<Item Name="Wakeup Msg.lvclass" Type="LVClass" URL="../PLCHandler Messages/Wakeup Msg/Wakeup Msg.lvclass"/>
 	</Item>
 	<Item Name="PLCHandler.lvclass" Type="LVClass" URL="../PLCHandler/PLCHandler.lvclass"/>
