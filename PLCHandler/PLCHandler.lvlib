@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Acknowledgement Msg.lvclass" Type="LVClass" URL="../PLCHandler Messages/Acknowledgement Msg/Acknowledgement Msg.lvclass"/>
+		<Item Name="Wakeup Msg.lvclass" Type="LVClass" URL="../PLCHandler Messages/Wakeup Msg/Wakeup Msg.lvclass"/>
+	</Item>
 	<Item Name="PLCHandler.lvclass" Type="LVClass" URL="../PLCHandler/PLCHandler.lvclass"/>
 </Library>
