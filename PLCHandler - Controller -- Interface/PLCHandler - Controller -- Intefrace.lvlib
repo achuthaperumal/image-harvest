@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Image Request Msg.lvclass" Type="LVClass" URL="../PLCHandler - Controller -- Interface Messages/Image Request Msg/Image Request Msg.lvclass"/>
+	<Item Name="Log Message Msg.lvclass" Type="LVClass" URL="../PLCHandler - Controller -- Interface Messages/Log Message Msg/Log Message Msg.lvclass"/>
 	<Item Name="PLC-Connection Status Msg.lvclass" Type="LVClass" URL="../PLCHandler - Controller -- Interface Messages/PLC-Connection Status Msg/PLC-Connection Status Msg.lvclass"/>
 	<Item Name="PLCHandler - Controller -- Interface.lvclass" Type="LVClass" URL="../PLCHandler - Controller -- Interface/PLCHandler - Controller -- Interface.lvclass"/>
 </Library>
