@@ -4,7 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Acquisition Status Msg.lvclass" Type="LVClass" URL="../ImageHandler - Controller -- Interface Messages/Acquisition Status Msg/Acquisition Status Msg.lvclass"/>
 	<Item Name="Connection Status Msg.lvclass" Type="LVClass" URL="../ImageHandler - Controller -- Interface Messages/Connection Status Msg/Connection Status Msg.lvclass"/>
+	<Item Name="Log Message Msg.lvclass" Type="LVClass" URL="../ImageHandler - Controller -- Interface Messages/Log Message Msg/Log Message Msg.lvclass"/>
 	<Item Name="ImageHandler - Controller -- Interface.lvclass" Type="LVClass" URL="../ImageHandler - Controller -- Interface/ImageHandler - Controller -- Interface.lvclass"/>
 </Library>
