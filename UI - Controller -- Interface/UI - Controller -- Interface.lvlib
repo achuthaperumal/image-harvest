@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Display Sel Image Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Display Sel Image Msg/Display Sel Image Msg.lvclass"/>
+		<Item Name="Image Indicator Ref Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Image Indicator Ref Msg/Image Indicator Ref Msg.lvclass"/>
+		<Item Name="Image Request Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Image Request Msg/Image Request Msg.lvclass"/>
 		<Item Name="Launch Calibration Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Launch Calibration Msg/Launch Calibration Msg.lvclass"/>
 		<Item Name="Launch Settings Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Launch Settings Msg/Launch Settings Msg.lvclass"/>
 		<Item Name="Open Folder Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Open Folder Msg/Open Folder Msg.lvclass"/>

@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Acquire Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Acquire Image Msg/Acquire Image Msg.lvclass"/>
 		<Item Name="DeInit Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/DeInit Msg/DeInit Msg.lvclass"/>
 		<Item Name="Display Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Display Image Msg/Display Image Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Init Msg/Init Msg.lvclass"/>
