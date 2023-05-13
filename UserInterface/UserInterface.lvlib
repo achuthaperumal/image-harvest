@@ -11,6 +11,7 @@
 		<Item Name="Reset UI Msg.lvclass" Type="LVClass" URL="../UserInterface Messages/Reset UI Msg/Reset UI Msg.lvclass"/>
 		<Item Name="Sensor Status Msg.lvclass" Type="LVClass" URL="../UserInterface Messages/Sensor Status Msg/Sensor Status Msg.lvclass"/>
 		<Item Name="Total Images Msg.lvclass" Type="LVClass" URL="../UserInterface Messages/Total Images Msg/Total Images Msg.lvclass"/>
+		<Item Name="Update Image List Msg.lvclass" Type="LVClass" URL="../UserInterface Messages/Update Image List Msg/Update Image List Msg.lvclass"/>
 	</Item>
 	<Item Name="UserInterface.lvclass" Type="LVClass" URL="../UserInterface/UserInterface.lvclass"/>
 	<Item Name="Helper Loop Status.ctl" Type="VI" URL="../UserInterface/Helper Loop Status.ctl"/>
