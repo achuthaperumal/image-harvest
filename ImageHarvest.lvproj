@@ -69,6 +69,9 @@
 		<Item Name="Business Logic" Type="Folder">
 			<Item Name="Controller.lvlib" Type="Library" URL="../Controller/Controller.lvlib"/>
 		</Item>
+		<Item Name="Icons" Type="Folder" URL="../Icons">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="ImageHandler" Type="Folder">
 			<Item Name="Driver" Type="Folder">
 				<Item Name="BonTechDetector.lvlib" Type="Library" URL="../ImageHandler/BonTechDetector/BonTechDetector.lvlib"/>
