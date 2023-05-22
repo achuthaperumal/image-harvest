@@ -173,15 +173,14 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ImageHarvest" Type="EXE">
+			<Item Name="Aayvu-CT" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{341AC5A3-4971-4F62-9140-AF4ABD89B34C}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{2381576B-EB32-4309-9079-B0D6DED12E9F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B8BDE737-5B4C-40EE-96A6-5D18B3152E13}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ImageHarvest</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Aayvu-CT</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -189,17 +188,16 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{96FE7558-9044-4524-A23D-99E16B4E0DB2}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ImageHarvest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ImageHarvest/ImageHarvest.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Aayvu-CT.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ImageHarvest/Aayvu-CT.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ImageHarvest/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{2D0197BB-5740-4FDE-96C2-2D05DB4281F5}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{69B2C8A1-E439-4632-A78C-6AD5A095EB81}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
@@ -207,35 +205,35 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Mechmet Engineers</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ImageHarvest</Property>
-				<Property Name="TgtF_internalName" Type="Str">ImageHarvest</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT</Property>
+				<Property Name="TgtF_internalName" Type="Str">Aayvu-CT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
-				<Property Name="TgtF_productName" Type="Str">ImageHarvest</Property>
+				<Property Name="TgtF_productName" Type="Str">Aayvu-CT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{C6139FF5-81D1-486F-96F4-9CB571F1C4F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ImageHarvest.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Aayvu-CT.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ImageHarvest Installer" Type="Installer">
+			<Item Name="Aayvu-CT Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">ImageHarvest</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{88CF7EDF-FF71-4DE8-9AB1-FA1486A69E69}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{6A52BEB3-0DBB-448F-A2E9-532B029FF5FD}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2021</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{0C3CAF31-4F7C-4135-A5BD-44701BEC0CBE}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2022 Q3</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
 				<Property Name="DistPart[1].productID" Type="Str">{8A2BC7C0-44B9-467F-8450-D19E048CFE89}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI-488.2 Runtime 21.0</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{F12C6F92-5B1C-4EAB-9364-96026CE1920D}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-Serial Runtime 20.0</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{32AD5200-879B-4D23-9785-747C4B19067E}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-Serial Runtime 21.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{31B755F6-2A76-49DE-A454-4D6BD9D59470}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 21.5</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{016644E7-BFD9-410F-902D-962614CB4E72}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 22.5</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[4].productID" Type="Str">{3954BD22-4321-42BB-BA6C-F687895AD8F0}</Property>
@@ -246,42 +244,44 @@
 				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2022 (64-bit)</Property>
 				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI TDM Streaming 22.3</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
 				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
 				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI Logos 22.3</Property>
-				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2022</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{68688466-B146-325C-AC08-D6ADFE5A4205}</Property>
 				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2022 (64-bit)</Property>
-				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI Logos 22.3</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI mDNS Responder 22.5</Property>
-				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2022 (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
 				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI mDNS Responder 22.5</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
 				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">NI TDM Streaming 22.3</Property>
-				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[4].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">11</Property>
 				<Property Name="DistPart[4].upgradeCode" Type="Str">{FB80C6B7-18E1-3FF4-99A2-719F62FACAD8}</Property>
 				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">Mechmet Engineers</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/ImageHarvest/ImageHarvest Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Aayvu-CT/Aayvu-CT Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">ImageHarvest Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Aayvu-CT Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{88CF7EDF-FF71-4DE8-9AB1-FA1486A69E69}</Property>
-				<Property Name="INST_installerName" Type="Str">ImageHarvest Installer.exe</Property>
-				<Property Name="INST_productName" Type="Str">ImageHarvest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_installerName" Type="Str">Aayvu-CT Installer.exe</Property>
+				<Property Name="INST_productName" Type="Str">Aayvu-CT</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">22318008</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Mechmet Engineers</Property>
@@ -296,15 +296,15 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{88CF7EDF-FF71-4DE8-9AB1-FA1486A69E69}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{88CF7EDF-FF71-4DE8-9AB1-FA1486A69E69}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">ImageHarvest.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Aayvu-CT.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">ImageHarvest</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Aayvu-CT</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">ImageHarvest</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{C6139FF5-81D1-486F-96F4-9CB571F1C4F1}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">ImageHarvest</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/ImageHarvest</Property>
+				<Property Name="Source[0].name" Type="Str">Aayvu-CT</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Aayvu-CT</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
