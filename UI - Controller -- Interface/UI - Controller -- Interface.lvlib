@@ -16,6 +16,7 @@
 		<Item Name="Launch Settings Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Launch Settings Msg/Launch Settings Msg.lvclass"/>
 		<Item Name="Open Folder Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Open Folder Msg/Open Folder Msg.lvclass"/>
 		<Item Name="StartHarvest Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/StartHarvest Msg/StartHarvest Msg.lvclass"/>
+		<Item Name="Display Mode Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Display Mode Msg/Display Mode Msg.lvclass"/>
 		<Item Name="StopHarvest Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/StopHarvest Msg/StopHarvest Msg.lvclass"/>
 	</Item>
 	<Item Name="UI - Controller -- Interface.lvclass" Type="LVClass" URL="../UI - Controller -- Interface.lvclass"/>
