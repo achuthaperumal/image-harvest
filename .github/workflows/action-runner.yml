@@ -27,5 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: MassCompile
-        run: LabVIEWCLI -LabVIEWPath "C:\Program Files\National Instruments\LabVIEW 2022\LabVIEW.exe" -PortNumber 3365 -OperationName MassCompile -DirectoryToCompile "E:\SourceCodes\image-harvest" -MassCompileLogFile "E:\SourceCodes\image-harvest\Logs\MassCompilelog.txt" -AppendToMassCompileLog true -NumOfVIsToCache 0 -ReloadLVSBs false
-      
+        run: LabVIEWCLI -PortNumber 3365 -OperationName MassCompile -DirectoryToCompile "E:\SourceCodes\image-harvest" -MassCompileLogFile "E:\SourceCodes\image-harvest\Logs\MassCompilelog.txt" -AppendToMassCompileLog true -NumOfVIsToCache 0 -ReloadLVSBs false    
