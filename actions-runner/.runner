@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 23,
+  "agentName": "LabVIEW",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/7Cr2wb3rOgBQ6uZr9kRtouf5qn75cm3ySdF57AcsIrSHULe0Yc",
+  "gitHubUrl": "https://github.com/achuthaperumal/image-harvest",
+  "workFolder": "_work"
+}
