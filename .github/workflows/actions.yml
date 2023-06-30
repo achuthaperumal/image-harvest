@@ -40,7 +40,7 @@ jobs:
           path: C:\actions-runner\_work\log.txt
       #Run command to perform UnitTest on success of MassCompile
       - name: UnitTests
-        if: ${{ sucess() }}
+        if: ${{ success() }}
         run: echo $Result #LabVIEWCLI -OperationName RunUnitTests -ProjectPath "C:\actions-runner\_work\image-harvest\ImageHarvest.lvproj" -JUnitReportPath "C:\actions-runner\_work\UnitTestLog.txt"
       - name: Build a Log
         uses: actions/upload-artifact@v3.1.2
@@ -52,7 +52,7 @@ jobs:
           
       # BuildSpec operation to build the exe and upload the artifact to Github remote
       - name: BuildSpec
-        if: ${{ sucess() }}
+        if: ${{ success() }}
         run: LabVIEWCLI -OperationName ExecuteBuildSpec -ProjectPath "C:\actions-runner\_work\image-harvest\ImageHarvest.lvproj" -TargetName "My Computer" -BuildSpecName "Aayvu-CT"
       - name: Build a Log
         uses: actions/upload-artifact@v3.1.2
