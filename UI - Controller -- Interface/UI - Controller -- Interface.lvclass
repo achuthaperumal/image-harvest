@@ -72,6 +72,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="Launch Image Averaging.vi" Type="VI" URL="../Launch Image Averaging.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(2!=!!?!!"*)F6*)#UA1W^O&gt;(*P&lt;'RF=C!N,3"*&lt;H2F=G:B9W5O&lt;(:M;7)E65EA,3"$&lt;WZU=G^M&lt;'6S)#UN)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!#"633!N)%.P&lt;H2S&lt;WRM:8)A,3UA37ZU:8*G97.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"S1(!!(A!!33*633!N)%.P&lt;H2S&lt;WRM:8)A,3UA37ZU:8*G97.F,GRW&lt;'FC*&amp;6*)#UA1W^O&gt;(*P&lt;'RF=C!N,3"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=Q!@65EA,3"$&lt;WZU=G^M&lt;'6S)#UN)%FO&gt;'6S:G&amp;D:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 	<Item Name="Launch Settings.vi" Type="VI" URL="../Launch Settings.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'D!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(2!=!!?!!"*)F6*)#UA1W^O&gt;(*P&lt;'RF=C!N,3"*&lt;H2F=G:B9W5O&lt;(:M;7)E65EA,3"$&lt;WZU=G^M&lt;'6S)#UN)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!#"633!N)%.P&lt;H2S&lt;WRM:8)A,3UA37ZU:8*G97.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"S1(!!(A!!33*633!N)%.P&lt;H2S&lt;WRM:8)A,3UA37ZU:8*G97.F,GRW&lt;'FC*&amp;6*)#UA1W^O&gt;(*P&lt;'RF=C!N,3"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=Q!@65EA,3"$&lt;WZU=G^M&lt;'6S)#UN)%FO&gt;'6S:G&amp;D:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

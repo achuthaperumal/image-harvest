@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="AvgStates.ctl" Type="VI" URL="../Typedef/AvgStates.ctl"/>
+	</Item>
+	<Item Name="Image Averaging.lvclass" Type="LVClass" URL="../Image Averaging.lvclass"/>
 </Library>
