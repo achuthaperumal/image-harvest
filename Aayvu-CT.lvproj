@@ -104,6 +104,7 @@
 			<Item Name="UserInterface.lvlib" Type="Library" URL="../UserInterface/UserInterface.lvlib"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="Live Data.ctl" Type="VI" URL="../Controller/Controller/TypeDef/Live Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
@@ -239,6 +240,53 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Aayvu v1.1.0 beta" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{30A052AB-DA9C-45AA-9F1D-782F58E99638}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4CB81C8B-B1CF-4826-A655-89ECAA2D8D94}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B60884F4-957D-41F6-B6F2-18208CA9B64C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Aayvu v1.1.0 beta</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{94AE176E-6E8B-47DC-B92C-5A4549113560}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Aayvu v1.1.0 beta.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta/Aayvu v1.1.0 beta.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{399C348A-56A9-4A11-B349-E29390262268}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL's</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT application to construct for 3D image construction</Property>
+				<Property Name="TgtF_internalName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
+				<Property Name="TgtF_productName" Type="Str">Aayvu v1.1.0 beta</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{86C9EA28-5BA8-49B5-B636-38DF874A579C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Aayvu v1.1.0 beta.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Aayvu-CT" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{341AC5A3-4971-4F62-9140-AF4ABD89B34C}</Property>
