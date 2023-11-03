@@ -18,6 +18,7 @@
 		<Item Name="StartHarvest Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/StartHarvest Msg/StartHarvest Msg.lvclass"/>
 		<Item Name="Display Mode Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Display Mode Msg/Display Mode Msg.lvclass"/>
 		<Item Name="StopHarvest Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/StopHarvest Msg/StopHarvest Msg.lvclass"/>
+		<Item Name="Launch Image Averaging Msg.lvclass" Type="LVClass" URL="../../UI - Controller -- Interface Messages/Launch Image Averaging Msg/Launch Image Averaging Msg.lvclass"/>
 	</Item>
 	<Item Name="UI - Controller -- Interface.lvclass" Type="LVClass" URL="../UI - Controller -- Interface.lvclass"/>
 </Library>
