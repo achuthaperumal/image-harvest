@@ -60,4 +60,4 @@ jobs:
      # Artifact name
           name: BuildSpec
     # A file, directory or wildcard pattern that describes what to upload
-          path: C:\actions-runner\builds\Aayvu-CT\Aayvu-CT
+          path:E:\SourceCodes\builds\Aayvu-CT-CI
