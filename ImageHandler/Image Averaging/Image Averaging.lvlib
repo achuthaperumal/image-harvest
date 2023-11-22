@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="AvgStates.ctl" Type="VI" URL="../Typedef/AvgStates.ctl"/>
+		<Item Name="Image Averaging Image Type.ctl" Type="VI" URL="../../Image Calibration/Bontech Calibration/TypeDef/Image Averaging Image Type.ctl"/>
 	</Item>
 	<Item Name="Image Averaging.lvclass" Type="LVClass" URL="../Image Averaging.lvclass"/>
 </Library>

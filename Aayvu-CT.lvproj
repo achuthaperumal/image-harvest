@@ -104,7 +104,6 @@
 			<Item Name="UserInterface.lvlib" Type="Library" URL="../UserInterface/UserInterface.lvlib"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="Live Data.ctl" Type="VI" URL="../Controller/Controller/TypeDef/Live Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
@@ -164,7 +163,9 @@
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Image Bit Depth" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Image Bit Depth"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 				<Item Name="IMAQ Rounding Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rounding Mode.ctl"/>
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
@@ -194,6 +195,7 @@
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
@@ -223,7 +225,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Calibration VI States.ctl" Type="VI" URL="../ImageHandler/Image Calibration/Bontech Calibration/TypeDef/Calibration VI States.ctl"/>
 			<Item Name="CheckForFileFolders.vi" Type="VI" URL="../Controller/Controller/CheckForFileFolders.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -240,99 +241,6 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Aayvu v1.1.0 beta" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{30A052AB-DA9C-45AA-9F1D-782F58E99638}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4CB81C8B-B1CF-4826-A655-89ECAA2D8D94}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B60884F4-957D-41F6-B6F2-18208CA9B64C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Aayvu v1.1.0 beta</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{94AE176E-6E8B-47DC-B92C-5A4549113560}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Aayvu v1.1.0 beta.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta/Aayvu v1.1.0 beta.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu v1.1.0 beta/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{399C348A-56A9-4A11-B349-E29390262268}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL's</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT application to construct for 3D image construction</Property>
-				<Property Name="TgtF_internalName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
-				<Property Name="TgtF_productName" Type="Str">Aayvu v1.1.0 beta</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{86C9EA28-5BA8-49B5-B636-38DF874A579C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Aayvu v1.1.0 beta.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Aayvu-CT" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{341AC5A3-4971-4F62-9140-AF4ABD89B34C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{2381576B-EB32-4309-9079-B0D6DED12E9F}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B8BDE737-5B4C-40EE-96A6-5D18B3152E13}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Aayvu-CT</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{96FE7558-9044-4524-A23D-99E16B4E0DB2}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Aayvu-CT.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu-CT.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32FCEA3F-0A77-4C50-9ED4-9E608938A1A9}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL's</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Mechmet Engineers</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT</Property>
-				<Property Name="TgtF_internalName" Type="Str">Aayvu-CT</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
-				<Property Name="TgtF_productName" Type="Str">Aayvu-CT</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C6139FF5-81D1-486F-96F4-9CB571F1C4F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Aayvu-CT.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Aayvu-CT Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">ImageHarvest</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -424,9 +332,104 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{C6139FF5-81D1-486F-96F4-9CB571F1C4F1}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Aayvu-CT</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Aayvu-CT</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Aayvu-CT-CI</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Aayvu-CT v1.1.0 beta" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{30A052AB-DA9C-45AA-9F1D-782F58E99638}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4CB81C8B-B1CF-4826-A655-89ECAA2D8D94}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B60884F4-957D-41F6-B6F2-18208CA9B64C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Aayvu-CT v1.1.0 beta</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu-CT v1.1.0 beta</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{94AE176E-6E8B-47DC-B92C-5A4549113560}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Aayvu-CT v1.1.0 beta.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu-CT v1.1.0 beta/Aayvu-CT v1.1.0 beta.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Aayvu-CT v1.1.0 beta/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA99163A-0184-47BD-920B-5D11D42BA30A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL's</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT application to construct for 3D image construction</Property>
+				<Property Name="TgtF_internalName" Type="Str">Karma Innovations and Solutions Pvt. Ltd</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
+				<Property Name="TgtF_productName" Type="Str">Aayvu-CT v1.1.0 beta</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{86C9EA28-5BA8-49B5-B636-38DF874A579C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Aayvu-CT v1.1.0 beta.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Aayvu-CT-CI" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{341AC5A3-4971-4F62-9140-AF4ABD89B34C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2381576B-EB32-4309-9079-B0D6DED12E9F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B8BDE737-5B4C-40EE-96A6-5D18B3152E13}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Aayvu-CT-CI</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/actions-runner/builds</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{96FE7558-9044-4524-A23D-99E16B4E0DB2}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Aayvu-CT.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/actions-runner/builds/Aayvu-CT-CI.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/actions-runner/builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/KARMA Logo/Karma_Logo Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA99163A-0184-47BD-920B-5D11D42BA30A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLL's</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Mechmet Engineers</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Aayvu-CT-CI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Aayvu-CT-CI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Mechmet Engineers</Property>
+				<Property Name="TgtF_productName" Type="Str">Aayvu-CT-CI</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C6139FF5-81D1-486F-96F4-9CB571F1C4F1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Aayvu-CT.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

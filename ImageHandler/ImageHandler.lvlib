@@ -14,5 +14,8 @@
 		<Item Name="Save Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Save Image Msg/Save Image Msg.lvclass"/>
 		<Item Name="Write Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Write Image Msg/Write Image Msg.lvclass"/>
 	</Item>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="Live Data.ctl" Type="VI" URL="../../Controller/Controller/TypeDef/Live Data.ctl"/>
+	</Item>
 	<Item Name="ImageHandler.lvclass" Type="LVClass" URL="../ImageHandler/ImageHandler.lvclass"/>
 </Library>
