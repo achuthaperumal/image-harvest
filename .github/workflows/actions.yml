@@ -52,7 +52,7 @@ jobs:
           
       # BuildSpec operation to build the exe and upload the artifact to Github remote
       - name: BuildSpec
-        if: steps.MassCompile == 'success'
+        #if: steps.MassCompile == 'success'
         run: LabVIEWCLI -OperationName ExecuteBuildSpec -ProjectPath "C:\actions-runner\_work\image-harvest\Aayvu-CT.lvproj" -TargetName "My Computer" -BuildSpecName "Aayvu-CT"
       - name: Build a Log
         uses: actions/upload-artifact@v3.1.2
