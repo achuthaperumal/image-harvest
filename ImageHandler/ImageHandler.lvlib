@@ -10,8 +10,12 @@
 		<Item Name="Display Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Display Image Msg/Display Image Msg.lvclass"/>
 		<Item Name="Display Mode Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Display Mode Msg/Display Mode Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Init Msg/Init Msg.lvclass"/>
+		<Item Name="Pixel Map Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Pixel Map Msg/Pixel Map Msg.lvclass"/>
 		<Item Name="Save Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Save Image Msg/Save Image Msg.lvclass"/>
 		<Item Name="Write Image Msg.lvclass" Type="LVClass" URL="../ImageHandler Messages/Write Image Msg/Write Image Msg.lvclass"/>
+	</Item>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="Live Data.ctl" Type="VI" URL="../../Controller/Controller/TypeDef/Live Data.ctl"/>
 	</Item>
 	<Item Name="ImageHandler.lvclass" Type="LVClass" URL="../ImageHandler/ImageHandler.lvclass"/>
 </Library>
