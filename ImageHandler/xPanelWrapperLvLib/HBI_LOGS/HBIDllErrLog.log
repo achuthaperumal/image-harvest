@@ -1,0 +1,76 @@
+10-31 00:00:36 [12340] :[HBI_Init][678][0] SDK_x64_Ver4.0.2.8_Release20240806
+10-31 00:00:36 [12340] :[HBI_Init][722][0] HBI_Init,CFpdServer(2,6),pcieId=7024
+10-31 00:00:36 [12340] :[CFpdServer::InitImageQueue][376][0] InitImageQueue success!
+10-31 00:00:36 [12340] :[CFpdServer::read_init_cfg][22303][0] warnning:file not exist!,E:\SourceCodes\The-Oracle\The-Oracle\Image Acquisition\Child Classes\DTImager\xPanelWrapperLvLib\HBI_FPD_CONFIG.ini
+10-31 00:00:36 [12340] :[HBI_Init][747][0] warnning:read_init_cfg is not exists!
+10-31 00:00:36 [12340] :[HBI_Init][766][0] HBI_Init success!
+10-31 00:00:36 [12340] :[HBI_RegEventCallBackFun][2937] HBI_RegEventCallBackFun
+10-31 00:00:36 [12340] :[HBI_RegEventCallBackFun][2952][0] succss!
+10-31 00:00:36 [12340] :[HBI_ConnectDetectorPcie][2627] doOffsetTemp=0
+10-31 00:00:36 [12340] :[HBI_ConnectDetectorPcie][2678][0] COMM_CREATE
+10-31 00:00:36 [12340] :[CComm::COMM_CREATE][92][0] COMM_CREATE
+10-31 00:00:36 [12340] :[CPCIe::close_event][1292][0] close_event success!
+10-31 00:00:36 [12340] :[CPCIe::create_event][1272][0] create_event success!
+10-31 00:00:36 [12340] :[CComm::COMM_CREATE][151][0] pcieId=7024,m_pcie malloc succss!
+10-31 00:00:36 [12340] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+10-31 00:00:36 [12340] :[CPCIe::get_devices][416][0] szDevId=_7024
+10-31 00:00:36 [12340] :[CPCIe::get_devices][488][0] err:Device not found:szDevId=_7024
+10-31 00:00:36 [12340] :[CPCIe::open_devices][308][0] err:get_devices,Devices number:0
+10-31 00:00:36 [12340] :[CPCIe::pcie_init][262][0] err:open_devices failed!
+10-31 00:00:36 [12340] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+10-31 00:00:36 [12340] :[CPCIe::close_event][1292][0] close_event success!
+10-31 00:00:36 [12340] :[CComm::COMM_CREATE][161][0] err:pcieId=7024,COMM_CREATE failed,because of pcie_init failed!
+10-31 00:00:36 [12340] :[HBI_ConnectDetectorPcie][2689][0] err:HBI_ERR_OPEN_DETECTOR_FAILED,COMM_CREATE failed!
+11-02 22:17:53 [11868] :[HBI_Init][678][0] SDK_x64_Ver4.0.2.8_Release20240806
+11-02 22:17:53 [11868] :[HBI_Init][722][0] HBI_Init,CFpdServer(2,6),pcieId=7024
+11-02 22:17:53 [11868] :[CFpdServer::InitImageQueue][376][0] InitImageQueue success!
+11-02 22:17:53 [11868] :[CFpdServer::read_init_cfg][22303][0] warnning:file not exist!,E:\SourceCodes\The-Oracle\The-Oracle\Image Acquisition\Child Classes\DTImager\xPanelWrapperLvLib\HBI_FPD_CONFIG.ini
+11-02 22:17:53 [11868] :[HBI_Init][747][0] warnning:read_init_cfg is not exists!
+11-02 22:17:53 [11868] :[HBI_Init][766][0] HBI_Init success!
+11-02 22:17:53 [11868] :[HBI_RegEventCallBackFun][2937] HBI_RegEventCallBackFun
+11-02 22:17:53 [11868] :[HBI_RegEventCallBackFun][2952][0] succss!
+11-02 22:17:53 [11868] :[HBI_ConnectDetectorPcie][2627] doOffsetTemp=0
+11-02 22:17:53 [11868] :[HBI_ConnectDetectorPcie][2678][0] COMM_CREATE
+11-02 22:17:53 [11868] :[CComm::COMM_CREATE][92][0] COMM_CREATE
+11-02 22:17:53 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:17:53 [11868] :[CPCIe::create_event][1272][0] create_event success!
+11-02 22:17:53 [11868] :[CComm::COMM_CREATE][151][0] pcieId=7024,m_pcie malloc succss!
+11-02 22:17:53 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:17:53 [11868] :[CPCIe::get_devices][416][0] szDevId=_7024
+11-02 22:17:53 [11868] :[CPCIe::get_devices][488][0] err:Device not found:szDevId=_7024
+11-02 22:17:53 [11868] :[CPCIe::open_devices][308][0] err:get_devices,Devices number:0
+11-02 22:17:53 [11868] :[CPCIe::pcie_init][262][0] err:open_devices failed!
+11-02 22:17:53 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:17:53 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:17:53 [11868] :[CComm::COMM_CREATE][161][0] err:pcieId=7024,COMM_CREATE failed,because of pcie_init failed!
+11-02 22:17:53 [11868] :[HBI_ConnectDetectorPcie][2689][0] err:HBI_ERR_OPEN_DETECTOR_FAILED,COMM_CREATE failed!
+11-02 22:18:22 [11868] :[HBI_ConnectDetectorPcie][2627] doOffsetTemp=0
+11-02 22:18:22 [11868] :[HBI_ConnectDetectorPcie][2678][0] COMM_CREATE
+11-02 22:18:22 [11868] :[CComm::COMM_CREATE][92][0] COMM_CREATE
+11-02 22:18:23 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:18:23 [11868] :[CPCIe::create_event][1272][0] create_event success!
+11-02 22:18:23 [11868] :[CComm::COMM_CREATE][151][0] pcieId=7024,m_pcie malloc succss!
+11-02 22:18:23 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:18:23 [11868] :[CPCIe::get_devices][416][0] szDevId=_7024
+11-02 22:18:23 [11868] :[CPCIe::get_devices][488][0] err:Device not found:szDevId=_7024
+11-02 22:18:23 [11868] :[CPCIe::open_devices][308][0] err:get_devices,Devices number:0
+11-02 22:18:23 [11868] :[CPCIe::pcie_init][262][0] err:open_devices failed!
+11-02 22:18:23 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:18:23 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:18:23 [11868] :[CComm::COMM_CREATE][161][0] err:pcieId=7024,COMM_CREATE failed,because of pcie_init failed!
+11-02 22:18:23 [11868] :[HBI_ConnectDetectorPcie][2689][0] err:HBI_ERR_OPEN_DETECTOR_FAILED,COMM_CREATE failed!
+11-02 22:19:15 [11868] :[HBI_ConnectDetectorPcie][2627] doOffsetTemp=0
+11-02 22:19:15 [11868] :[HBI_ConnectDetectorPcie][2678][0] COMM_CREATE
+11-02 22:19:15 [11868] :[CComm::COMM_CREATE][92][0] COMM_CREATE
+11-02 22:19:15 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:19:15 [11868] :[CPCIe::create_event][1272][0] create_event success!
+11-02 22:19:15 [11868] :[CComm::COMM_CREATE][151][0] pcieId=7024,m_pcie malloc succss!
+11-02 22:19:15 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:19:15 [11868] :[CPCIe::get_devices][416][0] szDevId=_7024
+11-02 22:19:15 [11868] :[CPCIe::get_devices][488][0] err:Device not found:szDevId=_7024
+11-02 22:19:15 [11868] :[CPCIe::open_devices][308][0] err:get_devices,Devices number:0
+11-02 22:19:15 [11868] :[CPCIe::pcie_init][262][0] err:open_devices failed!
+11-02 22:19:15 [11868] :[CPCIe::pcie_deinit][518][0] pcie_deinit
+11-02 22:19:15 [11868] :[CPCIe::close_event][1292][0] close_event success!
+11-02 22:19:15 [11868] :[CComm::COMM_CREATE][161][0] err:pcieId=7024,COMM_CREATE failed,because of pcie_init failed!
+11-02 22:19:15 [11868] :[HBI_ConnectDetectorPcie][2689][0] err:HBI_ERR_OPEN_DETECTOR_FAILED,COMM_CREATE failed!

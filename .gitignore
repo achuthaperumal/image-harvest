@@ -15,3 +15,9 @@
 *.aliases
 *.lvlps
 .cache/
+
+!ImageHandler/BonTechDetector/BonTechWrapperLibrary.dll
+!ImageHandler/BonTechDetector/CalibrationDLL.dll
+!ImageHandler/BonTechDetector/ImageCaptureDLL.dll
+!ImageHandler/VarexWrapperLvLib/*.dll
+!ImageHandler/xPanelWrapperLvLib/*.dll
